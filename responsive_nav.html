@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="topnav" id="mytopnav">
+        <a href="responsive_nav.html" class="active">Home</a>
+        <a href="../PRODIGY_WD_02/stopwatch.html">Stopwatch</a>
+        <a href="../PRODIGY_WD_03/tictac.html">Tic Tac Toe</a>
+        <a href="../PRODIGY_WD_04/portfolio.html">Portfolio</a>
+        <a href="javascript:void(0);" class="icon" onclick="myfunc()"><i class="fa-solid fa-bars"></i></a>
+    </div>
+
+    <h2>Hi there!! Resize the window to check the responsive navbar.</h2>
+    <h3>Effects seen when using screens of different sizes (phones, laptops, etc.)</h3>
+
+    <div class="container" id="section1">
+        <h1>Stopwatch</h1>
+        <p>A digital stopwatch web app featuring Start, Pause, Reset, and Lap Record functionalities. Click below to learn more.</p>
+        <button onclick="window.location.href='../PRODIGY_WD_02/stopwatch.html'">Go to Stopwatch</button>
+    </div>
+
+    <div class="container" id="section2">
+        <h1>Tic Tac Toe</h1>
+        <p>A Tic-Tac-Toe game web app where users can compete against each other or challenge an AI opponent. Click below to learn more.</p>
+        <button onclick="window.location.href='../PRODIGY_WD_03/tictac.html'">Play Tic Tac Toe</button>
+    </div>
+
+    <div class="container" id="section3">
+        <h1>Portfolio</h1>
+        <p>My personal portfolio showcasing my skills, projects, and accomplishments in web development and design. Click below to learn more.</p>
+        <button onclick="window.location.href='../PRODIGY_WD_04/portfolio.html'">Check out My Portfolio</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
